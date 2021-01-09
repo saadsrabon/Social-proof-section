@@ -1,0 +1,67 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    .main{
+background: url(../images/bg-pattern-top-mobile.svg)top left no-repeat;
+     width:100%;
+  
+    }
+    .box{
+
+    background: url(../images/bg-pattern-bottom-mobile.svg)bottom right no-repeat;
+
+    }
+   .col-md-4{
+       width: 100%;
+       overflow: hidden;
+       float: none;
+   }
+   .col-md-6{
+       width: 100%;
+       display: block;
+       overflow: hidden;
+       float: none;
+   }
+   .box .left-text h1 {
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 30px;
+    color: hsl(300, 43%, 22%);
+    text-align: center;
+    padding: 20px;
+
+  
+}
+.box .left-text p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: black;
+    opacity: .6;
+    margin: 20px 0;
+}
+.box .left-text {
+    overflow: hidden;
+    text-align: center;
+}
+.right-side{
+    text-align: center;
+}
+.extra{
+    margin-left: 0px;
+}
+.extra-next{
+    margin-left: 0px;
+}
+.inner-img{
+    width: 96%;
+    margin: 10px auto;
+    text-align: center;
+}
+.card-long p {
+    font-size: 14px;
+    color: #F8F2F6;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+}
